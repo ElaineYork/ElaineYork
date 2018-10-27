@@ -5,7 +5,7 @@ ECHO off
 echo ----------------------------------------
 echo                   docker
 echo ----------------------------------------
-echo a.å•Ÿå‹• c.é—œé–‰ l.é¡¯ç¤º q.é›¢é–‹
+echo a.±Ò°Ê c.Ãö³¬ l.Åã¥Ü q.Â÷¶}
 echo ----------------------------------------
 set /p input=Input:
 cls
@@ -14,7 +14,7 @@ If "%input%" == "a" Goto a
 If "%input%" == "c" Goto c
 If "%input%" == "l" Goto l
 If "%input%" == "q" Goto q
-echo è«‹è¼¸å…¥æ­£ç¢ºæŒ‡ä»¤
+echo ½Ð¿é¤J¥¿½T«ü¥O
 goto go
 
 :a

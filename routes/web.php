@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+<<<<<<< Updated upstream
 Route::get('/3-1022', function () {
     $var = [1,2,3];
 
@@ -65,4 +66,48 @@ Route::get('/3-1022', function () {
         echo "æˆ‘çš„${key}æ˜¯${value}";
         echo '<br>';
     }
+=======
+Route::get('/elaine', function () {
+
+	$string = 'elaine';
+
+	$array1 = array('york', 123);
+
+	$array2 = ['elaine',456];
+
+	$int1 = 4;
+
+        $int2 = 4578;
+
+	echo "${string} is a girl";
+	echo '${string} is a girl';
+
+        #echo $int1 + $int2;
+        #print "<br>";
+        #print $int1 / $int2;
+
+	for($int1; $int1<10; $int1++)
+	{
+		echo $int1;
+		echo '<br>';
+	}
+
+	#$a = 1 > 2;
+	#var_dump($a);
+
+	$x = 21;
+	$y = "21";
+	var_dump($x);
+	echo '<br>';
+	var_dump($y);
+	echo '<br>';
+	var_dump($x !== $y);#¤£µ¥©ó(±j¦æ§O)¤º®eª«¸ò«¬ºA³£¤ñ¹ï
+	echo '<br>';
+	var_dump($x <> $y);#¤£µ¥©ó(®z«¬§O)¥u¤ñ¹ï¤º®eª«
+
+	$z = 0;
+	var_dump((bool)$z);
+	$z = '';
+	var_dump($z);
+>>>>>>> Stashed changes
 });
