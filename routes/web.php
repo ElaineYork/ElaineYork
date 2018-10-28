@@ -109,3 +109,18 @@ Route::get('/elaine', function () {
     $z = '';
     var_dump($z);
 });
+
+Route::get('/1028', function () {
+
+    $int1 = 2;
+
+    $int2 = 1;
+
+    for ($int1; $int1 < 10; $int1++) {
+        for ($int2; $int2 < 10; $int2++) {
+            echo $int1 . '*' . $int2  . '=' . $int1 * $int2;
+            echo '<br>';
+        }
+
+    }
+});
