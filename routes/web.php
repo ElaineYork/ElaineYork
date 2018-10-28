@@ -15,7 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-<<<<<<< Updated upstream
 Route::get('/3-1022', function () {
     $var = [1,2,3];
 
@@ -66,48 +65,47 @@ Route::get('/3-1022', function () {
         echo "æˆ‘çš„${key}æ˜¯${value}";
         echo '<br>';
     }
-=======
+});
+
 Route::get('/elaine', function () {
 
-	$string = 'elaine';
+    $string = 'elaine';
 
-	$array1 = array('york', 123);
+    $array1 = array('york', 123);
 
-	$array2 = ['elaine',456];
+    $array2 = ['elaine', 456];
 
-	$int1 = 4;
+    $int1 = 4;
 
-        $int2 = 4578;
+    $int2 = 4578;
 
-	echo "${string} is a girl";
-	echo '${string} is a girl';
+    echo "${string} is a girl";
+    echo '${string} is a girl';
 
-        #echo $int1 + $int2;
-        #print "<br>";
-        #print $int1 / $int2;
+    #echo $int1 + $int2;
+    #print "<br>";
+    #print $int1 / $int2;
 
-	for($int1; $int1<10; $int1++)
-	{
-		echo $int1;
-		echo '<br>';
-	}
+    for ($int1; $int1 < 10; $int1++) {
+        echo $int1;
+        echo '<br>';
+    }
 
-	#$a = 1 > 2;
-	#var_dump($a);
+    #$a = 1 > 2;
+    #var_dump($a);
 
-	$x = 21;
-	$y = "21";
-	var_dump($x);
-	echo '<br>';
-	var_dump($y);
-	echo '<br>';
-	var_dump($x !== $y);#¤£µ¥©ó(±j¦æ§O)¤º®eª«¸ò«¬ºA³£¤ñ¹ï
-	echo '<br>';
-	var_dump($x <> $y);#¤£µ¥©ó(®z«¬§O)¥u¤ñ¹ï¤º®eª«
+    $x = 21;
+    $y = "21";
+    var_dump($x);
+    echo '<br>';
+    var_dump($y);
+    echo '<br>';
+    var_dump($x !== $y);#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½jï¿½ï¿½O)ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½ò«¬ºAï¿½ï¿½ï¿½ï¿½ï¿½
+    echo '<br>';
+    var_dump($x <> $y);#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½zï¿½ï¿½ï¿½O)ï¿½uï¿½ï¿½ï¤ºï¿½eï¿½ï¿½
 
-	$z = 0;
-	var_dump((bool)$z);
-	$z = '';
-	var_dump($z);
->>>>>>> Stashed changes
+    $z = 0;
+    var_dump((bool)$z);
+    $z = '';
+    var_dump($z);
 });
