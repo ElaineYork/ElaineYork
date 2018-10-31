@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /*
 |--------------------------------------------------------------------------
@@ -112,15 +112,22 @@ Route::get('/elaine', function () {
 
 Route::get('/1028', function () {
 
-    $int1 = 2;
+echo "<table table width='1900' border='0'cellpadding='5' align=center rules='none' >";
 
     $int2 = 1;
 
-    for ($int1; $int1 < 10; $int1++) {
-        for ($int2; $int2 < 10; $int2++) {
-            echo $int1 . '*' . $int2  . '=' . $int1 * $int2;
-            echo '<br>';
-        }
+    echo "<tr>";
 
+    for ($int2; $int2 < 10; $int2++) {
+
+	$int1 = 2;
+	
+        for ($int1; $int1 < 10; $int1++) {
+
+            echo "<td align=center>{$int1}x{$int2}=" . ($int1 * $int2)."</td>";
+            
+        }
+	echo "</tr>";
     }
+echo "</table>";
 });
